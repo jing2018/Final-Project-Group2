@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python ../new_fer2013/datasets/ROC.py --proto datasets/AlexNet_deploy.prototxt --model models/AlexNet/AlexNet_450000_iter_solver_iter_50000.caffemodel --mean datasets/fer2013_mean.binaryproto --lmdb datasets/fer2013_val_lmdb
